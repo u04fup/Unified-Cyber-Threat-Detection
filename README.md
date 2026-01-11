@@ -47,11 +47,13 @@ Download datasets from their official sources:
 
 ## Usage
 
+**Note:** Hyperparameters are configured directly inside the script files, not via CLI.
+
 Execute sequentially (configure file paths first):
 
 1. **Preprocessing**: Run notebooks in `1_preprocessing/` to generate splits.
 2. **Serialization**: Run `2_serialization/serialization.ipynb` to convert tabular data to text.
-3. **Training**: Run `3_main_training/main_training.py` to fine-tune (set LoRA/Full FT inside script).
+3. **Training**: Run `3_main_training/main_training.py` to fine-tune.
 4. **Evaluation**: Run `4_evaluation/evaluation.py` for test metrics.
 
 ## Performance Summary (AUPRC)
