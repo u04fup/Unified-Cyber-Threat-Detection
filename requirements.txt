@@ -1,0 +1,29 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Deep Learning
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+accelerate==1.4.0
+
+# NLP and AI Models
+transformers==4.48.1
+peft==0.14.0
+datasets==3.3.2
+huggingface_hub==0.29.1
+tokenizers==0.21.0
+safetensors==0.5.2
+
+# Machine Learning & Data
+xgboost==2.1.4
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==1.24.3
+
+# Visualization & Tools
+shap==0.49.1
+matplotlib==3.10.0
+tqdm==4.67.1
+openpyxl==3.1.5
+jupyterlab
+ipykernel

@@ -1,0 +1,41 @@
+name: unified-detection
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  
+  # Deep Learning
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  # NLP and AI Models
+  - transformers=4.48.1
+  - peft=0.14.0
+  - accelerate=1.4.0
+  - huggingface_hub
+  - tokenizers
+  - safetensors
+
+  # Machine Learning & Data
+  - xgboost=2.1.4
+  - scikit-learn=1.6.1
+  - pandas=2.2.3
+  - numpy=1.24.3
+
+  # Visualization & Tools
+  - matplotlib=3.10.0
+  - tqdm
+  - jupyterlab
+  - ipykernel
+
+  # Pip specific packages
+  - pip
+  - pip:
+    - shap==0.49.1
+    - datasets==3.3.2
+    - openpyxl==3.1.5
