@@ -2,7 +2,7 @@
 
 Official implementation of the paper: **"A Unified Framework for Heterogeneous Cyber Threat Detection: Integrating Text and Tabular Data via Semantic Serialization"**.
 
-This repository implements a unified framework processing text (e.g., emails) and tabular data (e.g., logs) using a single RoBERTa model fine-tuned with Low-Rank Adaptation (LoRA).
+This repository implements a unified framework for processing text and tabular data using the RoBERTa model fine-tuned with Low-Rank Adaptation (LoRA).
 
 ## Project Structure
 * `1_preprocessing/`: Generates splits for T1-T3 (Stratified) and T4 (Time-Stratified). **(Table 1)**
@@ -51,7 +51,7 @@ Execute sequentially (configure file paths first):
 
 1. **Preprocessing**: Run notebooks in `1_preprocessing/` to generate splits.
 2. **Serialization**: Run `2_serialization/serialization.ipynb` to convert tabular data to text.
-3. **Training**: Run `3_main_training/main_training.py` to fine-tune.
+3. **Training**: Run `3_main_training/main_training.py` to fine-tune (set LoRA/Full FT inside script).
 4. **Evaluation**: Run `4_evaluation/evaluation.py` for test metrics.
 
 ## Performance Summary (AUPRC)
