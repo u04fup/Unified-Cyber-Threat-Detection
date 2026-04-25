@@ -58,7 +58,7 @@ Execute sequentially (configure file paths first):
 
 ## Performance Summary (AUPRC)
 
-| Task | Dataset | Baseline | Proposed (Unified) |
+| Task | Dataset | Baseline | Proposed |
 | --- | --- | --- | --- |
 | **T1** | Phishing Email (Text) | 0.9909 | **0.9941** |
 | **T2** | Malicious URL (Text) | 0.9913 | **0.9989** |
