@@ -67,7 +67,7 @@ Execute sequentially (configure file paths first):
 | **T5** | UNSW-NB15 (Tabular) | 0.9853 | 0.9848 |
 | **T6** | UNSW-NB15 Multi (Tabular) | 0.5483 | **0.5910** |
 
-> **Note:** The reported results represent the mean AUPRC across three independent runs.
+> **Note:** The reported results represent the mean AUPRC across three independent runs, using macro-averaging instead of weighted-averaging for multi-class tasks.
 
 ## Citation
 
